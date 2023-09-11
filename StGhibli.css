@@ -1,0 +1,365 @@
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  min-height: 100%;
+  color: #333;
+  background-color: #fff;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.nav-link {
+  color: #fff;
+  letter-spacing: -.01em;
+  white-space: nowrap;
+  background-color: rgba(0, 0, 0, 0);
+  border-radius: 50px;
+  padding: 8px 24px;
+  font-size: 14px;
+  line-height: 24px;
+  transition: all .35s;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: #160042;
+  background-color: #f3f5fb;
+}
+
+.nav-container-2 {
+  width: 1920px;
+  height: 60px;
+  opacity: 0.82;
+  background-color: #b9ad80;
+  align-items: center;
+  padding: 24px 5px;
+  display: flex;
+  top: 142px;
+  z-index: 4;
+  padding-left: 288px;
+  padding-right: 400px;
+  justify-content: space-between;
+}
+
+.f-navigation-button-2 {
+  outline-offset: 0px;
+  color: #fff;
+  text-align: center;
+  letter-spacing: -.02em;
+  background-color: #c6bc98;
+  border-radius: 48px;
+  outline: 2px solid rgba(0, 0, 0, 0);
+  justify-content: center;
+  align-items: center;
+  padding: 8px 24px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  transition: all .2s;
+  display: flex;
+}
+
+.f-navigation-button-2:hover {
+  background-color: #282556;
+}
+
+.f-navigation-menu-2 {
+  grid-column-gap: 8px;
+  grid-row-gap: 8px;
+  justify-content: flex-start;
+  align-self: center;
+  align-items: center;
+  padding-left: 0;
+  padding-right: 172px;
+  font-family: Exo, sans-serif;
+  font-weight: 700;
+  display: flex;
+  position: static;
+}
+
+.f-logo-2 {
+  width: 220px;
+  height: 105px;
+  position: relative;
+  right: 0;
+}
+.f-navigation-container {
+  width: 100%;
+  height: 60px;
+  max-width: 1280px;
+  text-align: left;
+  background-color: #cdd3ac;
+  border-radius: 0;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 131px;
+  display: flex;
+  left: 24px;
+}
+
+.container{
+  border-radius: 10px;
+  z-index: 4;
+  top: 1800px;
+  left: 180px;
+  overflow: hidden;
+}
+
+.div-block {
+  width: 100px;
+  height: 60px;
+  background-color: #cdd3ac;
+  top: 65px;
+}
+
+.div-block-2 {
+  width: 60px;
+  height: 60px;
+  text-align: left;
+  background-color: #cdd3ac;
+  top: 65px;
+}
+
+.div-block-3 {
+  z-index: 2;
+  width: 1600px;
+  height: 480px;
+  background-color: #fff;
+  border-bottom-left-radius: 0;
+  top: 1226px;
+  left: 316px;
+  right: 1803px;
+}
+
+.div-block-4 {
+  z-index: 2;
+  height: 200px;
+  background-color: #fff;
+  top: 385px;
+}
+
+.image-1,.image-2,.image-3,.image-4,.image-5,.image-6,.image-7,.image-8,.image-9,.image-10,.image-11,.image-12,.image-13,.image-14,.image-15,.image-16,.image-17,.image-18,.image-19,.image-20,.image-21,.image-22,.paragraph,.paragraph-2,.paragraph-3,.div-block,.div-block-2,.div-block-3,.div-block-4,.text-block,.text-block-2,.text-block-3,.heading,.container,.f-navigation-container,.nav-container-2{
+  position: absolute;
+}
+.image-1,.image-2,.image-3,.image-4,.image-5,.image-6,.image-7,.image-8,.image-9,.image-10,.image-11,.image-12,.image-13,.image-14,.image-15,.image-16,.image-17,.image-18,.image-19,.image-20,.image-21,.image-22{
+  user-select: none;
+}
+.image-1 {
+  z-index: 5;
+  top: 3100px;
+  left: 713px;
+}
+
+.image-2,.image-4 {
+  opacity: .32;
+}
+
+.image-3 {
+  top: 40px;
+  bottom: 0;
+  left: 759px;
+}
+
+.image-4 {
+  top: 1302px;
+}
+
+.image-5 {
+  z-index: 6;
+  width: 1200px;
+  text-align: left;
+  border: 30px solid #fff;
+  border-radius: 20px;
+  margin-top: 21px;
+  top: 220px;
+  bottom: 25px;
+  left: 360px;
+  right: 25px;
+  box-shadow: 0 12px 20px 6px rgba(0, 0, 0, .2);
+}
+
+.image-6 {
+  top: 43px;
+  left: 1106px;
+}
+
+.image-7 {
+  z-index: 3;
+  width: 130px;
+  top: 948px;
+  left: 17px;
+}
+
+.image-8 {
+  z-index: 4;
+  width: 750px;
+  background-color: rgba(255, 255, 255, 0);
+  border: 30px solid #fff;
+  border-radius: 20px;
+  top: 1122px;
+  left: 997px;
+}
+
+.image-9 {
+  z-index: 3;
+  width: 700px;
+  height: 800px;
+  border-radius: 20px;
+  top: 1009px;
+  left: 1197px;
+}
+
+.image-10 {
+  top: 1142.5px;
+  left: 409px;
+}
+
+.image-11 {
+  z-index: 4;
+  width: 180px;
+  top: 1662px;
+  left: 1657px;
+}
+
+.image-12 {
+  width: 1920px;
+  height: 1000px;
+  top: 2267px;
+}
+
+.image-13 {
+  z-index: 4;
+  width: 490px;
+  height: 280px;
+  border-radius: 20px;
+  top: 2396px;
+  left: 677px;
+}
+
+.image-14 {
+  width: 700px;
+  border-radius: 20px;
+  top: 2396px;
+  left: 1190px;
+}
+
+.image-15 {
+  width: 850px;
+  border-radius: 20px;
+  top: 2396px;
+  left: -198px;
+}
+
+.image-16 {
+  width: 490px;
+  height: 380px;
+  min-width: 300px;
+  border-radius: 20px;
+  top: 2698px;
+  left: 677px;
+}
+
+.image-17 {
+  width: 340px;
+  height: 260px;
+  border-radius: 20px;
+  top: 2816px;
+  left: 1190px;
+}
+
+.image-18 {
+  width: 340px;
+  height: 260px;
+  border-radius: 20px;
+  top: 2816px;
+  left: 1552px;
+}
+
+.image-19 {
+  width: 1920px  ;
+  height: 400px;
+  top: 3157px;
+}
+
+.image-20 {
+  top: 3096px;
+  left: 79px;
+}
+
+.image-21 {
+  width: 400px;
+  top: 3082px;
+  left: 1436px;
+}
+
+.text-block {
+  z-index: 4;
+  width: 150px;
+  color: #000;
+  font-family: Exo, sans-serif;
+  font-weight: 600;
+  bottom: 1142px;
+  left: 831px;
+}
+
+.text-block-2 {
+  font-family: Exo, sans-serif;
+  font-weight: 600;
+  top: 61px;
+  left: 1175px;
+}
+
+.text-block-3 {
+  font-family: Exo, sans-serif;
+  font-weight: 600;
+  top: 61px;
+  left: 831px;
+}
+
+.paragraph {
+  z-index: 4;
+  width: 730px;
+  height: 500px;
+  color: #7b6f6c;
+  background-color: #fff;
+  border-radius: 20px;
+  font-family: Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif;
+  font-size: 23px;
+  font-weight: 700;
+  line-height: 35px;
+  top: 1208px;
+  left: 171px;
+}
+
+.paragraph-2 {
+  z-index: 4;
+  width: 900px;
+  font-family: Dancing Script, sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  top: 1674px;
+  left: 227px;
+}
+
+.paragraph-3 {
+  font-family: Merriweather, serif;
+  top: 3373px;
+  left: 751px;
+}
+
+.heading {
+  z-index: 4;
+  color: #5a4d43;
+  border: 0 solid #7b6f6c;
+  font-family: Great Vibes, cursive;
+  font-size: 70px;
+  top: 1079px;
+  left: 152px;
+}
